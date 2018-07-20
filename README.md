@@ -16,6 +16,10 @@ ng serve <---- To start server
 
 ng serve --open <---- To start server
 
+# Explanation
+
+Creating a sample angular 2 app with protected routes (/dashboard), as we want to prevent our users from accessing areas which need authentication. Angular provide feature called Navigation Guard which solves this problem. We are using CanActivate to decide if route is activated with class LoginGuard (currently this is returning fixed response and redirected, which can be extended as needed. We are using modules to create separation of concerns, it helps us stop polluting global scope. We are using redux for data store and effects for making server calls using services. 
+
 # Client
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.0.8.
