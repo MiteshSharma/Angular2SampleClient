@@ -1,3 +1,21 @@
+# Setup
+
+npm install -g @angular/cli <---- Install angular clie
+
+ng new ProjectName  <---- Create project
+
+npm install @ngrx/core @ngrx/store --save <---- Install redux
+
+npm install @ngrx/effects --save <---- Install effects
+
+ng g module ModuleName --dry-run  <---- Create module, with dry-run we will see plan without it we actually create it
+
+ng g component Component --dry-run <---- Create component, with dry-run we will see plan without it we actually create it
+
+ng serve <---- To start server
+
+ng serve --open <---- To start server
+
 # Client
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.0.8.
